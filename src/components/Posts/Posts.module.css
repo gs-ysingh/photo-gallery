@@ -1,0 +1,65 @@
+.posts {}
+
+.image {
+  height: 400px;
+  margin-top: 50px;
+}
+
+.like {
+  background-image: url('https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_fba72cdd640a.png/fba72cdd640a.png');
+  background-size: 282px 248px;
+  background-position: 0 -199px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+.liked {
+  background-image: url('https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_fba72cdd640a.png/fba72cdd640a.png');
+  background-size: 282px 248px;
+  background-position: -208px -150px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+.likeContainer {
+  padding: 15px;
+  display: flex;
+}
+
+.likeContainer span {
+  margin-right: 15px;
+}
+
+.comment {
+  background-image: url('https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_fba72cdd640a.png/fba72cdd640a.png');
+  background-size: 282px 248px;
+  background-position: -183px -25px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+.share {
+  background-image: url('https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_fba72cdd640a.png/fba72cdd640a.png');
+  background-size: 282px 248px;
+  background-position: -258px -175px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+.none {
+  display: none;
+}
+
+.likedMsg, .viewall {
+  font-size: 13px;
+  padding: 15px;
+}
+
+.viewall {
+  color: #999;
+  cursor: pointer;
+}

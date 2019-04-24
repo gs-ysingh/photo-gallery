@@ -1,0 +1,77 @@
+.profilePic {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 30px;
+  border-bottom: none;
+  margin-bottom: 24px;
+  padding-bottom: 0;
+  height: 100px;
+  display: flex;
+}
+
+.profilePic .image {
+  flex-grow: 1;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 75px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.otherContent {
+  flex-grow: 2;
+}
+
+.profilePic h1 {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+  color: #262626;
+  font-size: 28px;
+  line-height: 32px;
+  margin: -5px 0 -6px;
+}
+
+.following {
+  border: 1px solid silver;
+  margin-top: 20px;
+  height: 24px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.followedBy {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.followedText {
+  color: #999;
+}
+
+.numbersContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+  text-align: center;
+  border-bottom: 1px solid silver;
+  border-top: 1px solid silver;
+  padding: 10px;
+}
+
+.images {
+  min-height: 600px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.images .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}

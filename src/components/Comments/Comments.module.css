@@ -1,0 +1,52 @@
+.comments {
+  font-size: 14px;
+  line-height: 18px;
+  min-height: 56px;
+  border: 0;
+  padding: 0;
+  top: -2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+}
+
+.typeText {
+  height: 30px;
+  width: 60%;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.postbtn {
+  border: 0;
+  color: #3897f0;
+  display: inline;
+  padding: 0;
+  cursor: pointer;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.commentContainer {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.comment {
+  width: 90%;
+  max-height: 60px;
+  overflow: hidden;
+}
